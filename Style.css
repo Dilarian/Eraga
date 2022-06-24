@@ -1,0 +1,221 @@
+body {
+    font-family: Gilroy-Bold sans-serif;
+
+    font-size: 18px;
+    line-height: 1.6;
+    color: #828282;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* container */
+.container {
+    max-width: 939px;
+    margin: auto;
+}
+
+/* headre */
+.headre {
+    width: 100%;
+    margin: auto
+}
+
+/* nav + _link */
+
+.nav {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #828282 solid;
+padding-bottom: 31px;
+}
+
+.nav_link {
+    color: #828282;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    vert-align: top;
+}
+
+.nav_link:hover {
+    color: black;
+
+}
+
+.name {
+    font-size: 48px;
+    color: black;
+    font-family: Gilroy-Bold serif ;
+}
+
+.years{
+    font-size: 18px;
+    font-family: Gilroy-Medium serif;
+    color: black;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.lang {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+}
+/*RU|ENG*/
+.ru{
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 20px;
+}
+
+.image1{
+padding-top: 50px;
+}
+/*comtainer-full*/
+.container-full{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    background: #F6F6F6;
+    margin-top: 104px;
+}
+/*title*/
+.title{
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+    width: 485px;
+    text-align: center;
+    margin: 35px auto 0;
+}
+
+.text{
+    font-size: 18px;
+    color: black;
+    line-height: 22px;
+}
+
+/*container-skill*/
+.container-skill{
+    width: 100%;
+    padding-top: 91px;
+    padding-bottom: 110px;
+    max-width: 939px;
+    margin: auto;
+}
+
+.program{
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-top: 69px;
+}
+
+.imageprograms{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 84px;
+}
+
+/*portfolio*/
+.container-portbg{
+    background-color: #F6F6F6;
+}
+
+.container-portfolio{
+    width: 100%;
+    padding-top: 112px;
+    padding-bottom: 96px;
+    max-width: 939px;
+    margin: auto;
+}
+
+.new-collection{
+    margin-top: 47px;
+}
+
+.title-description{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 44px;
+    text-decoration-line: underline;
+}
+
+.Reebok{
+    margin-top: 99px;
+}
+
+.braun{
+    margin-top: 99px;
+}
+
+/*contacts*/
+.container-contacts{
+    width: 100%;
+    padding-top: 114px;
+    padding-bottom: 123px;
+    max-width: 939px;
+    margin: auto;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*gap: 54px;*/
+    /*width: 485px;*/
+    text-align: center;
+    margin: 35px auto 0;
+    color: black;
+    font-size: 18px;
+}
+
+.massage{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.like{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 45px auto 0;
+    color: #828282;
+    font-size: 14px;
+}
